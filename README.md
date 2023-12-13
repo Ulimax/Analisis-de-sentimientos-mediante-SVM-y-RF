@@ -12,9 +12,14 @@ Los campos que se encuentran en el dataset inicial corresponden a:
 - created_time:Timestamp of the comment's creation. 
 
 Conociendo esta información se decidió trabajar con los comentarios que se encuentran en la columna self text llevando acabo una limpieza de los mismos, descubrimos diferentes elementos dentro de este campo, encontrando que en la
-misma no solo se encontraban los posts de usuarios de la plataforma sino a que se encontraban tambien advertencias y anuncios creados por el BOT de Reddit.
+misma no solo se encontraban los posts de usuarios de la plataforma sino a que se encontraban tambien advertencias y anuncios creados por el BOT de Reddit.Se quitaron estos comentarios y espacios vacios dentro de los mismos.
 
-Para el modelo de Random Forest se emplearon los hiperparametros 
+ya que ahora tenemos un dataframe con puros comentarios se procedio a trabajar con una erramienta preentrenada de redes neuronales Conocida como Bert para conocer los sentimientos detras de cada comentario y en base a los mismos se procedio
+a determinar que comentarios son considerados como negativos y positivos y agregandolos a nuestro dataset de comentarios como se muestra en la siguiente imagen.
+
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/Ulimax/Analisis-de-sentimientos-mediante-SVM-y-RF/blob/main/Captura%20de%20pantalla%20de%202023-12-13%2017-32-55.png)
+
+Para el modelo de Random Forest se emplearon los hiperparametros n_estimators = 60, random_state=42, criterion = gini
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/Ulimax/Analisis-de-sentimientos-mediante-SVM-y-RF/blob/main/randomForest1.png)
