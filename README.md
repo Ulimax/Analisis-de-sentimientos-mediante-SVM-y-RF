@@ -14,7 +14,7 @@ Los campos que se encuentran en el dataset inicial corresponden a:
 Conociendo esta información se decidió trabajar con los comentarios que se encuentran en la columna self text llevando acabo una limpieza de los mismos, descubrimos diferentes elementos dentro de este campo, encontrando que en la
 misma no solo se encontraban los posts de usuarios de la plataforma sino a que se encontraban tambien advertencias y anuncios creados por el BOT de Reddit.Se quitaron estos comentarios y espacios vacios dentro de los mismos.
 
-ya que ahora tenemos un dataframe con puros comentarios se procedio a trabajar con una erramienta preentrenada de redes neuronales Conocida como Bert para conocer los sentimientos detras de cada comentario y en base a los mismos se procedio
+Ya que ahora tenemos un dataframe con puros comentarios se procedio a trabajar con una erramienta preentrenada de redes neuronales Conocida como Bert para conocer los sentimientos detras de cada comentario y en base a los mismos se procedio
 a determinar que comentarios son considerados como negativos y positivos y agregandolos a nuestro dataset de comentarios como se muestra en la siguiente imagen.
 
 
