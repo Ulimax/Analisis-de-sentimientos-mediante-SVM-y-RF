@@ -14,5 +14,5 @@ Los campos que se encuentran en el dataset inicial corresponden a:
 Conociendo esta información se decidió trabajar con los comentarios que se encuentran en la columna self text llevando acabo una limpieza de los mismos, descubrimos diferentes elementos dentro de este campo, encontrando que en la
 misma no solo se encontraban los posts de usuarios de la plataforma sino a que se encontraban tambien advertencias y anuncios creados por el BOT de Reddit.
 
-
+Para el modelo de Random Forest se emplearon los hiperparametros 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/Ulimax/Analisis-de-sentimientos-mediante-SVM-y-RF/blob/main/randomForest1.png)
