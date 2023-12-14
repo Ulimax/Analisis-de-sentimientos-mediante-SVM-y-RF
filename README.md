@@ -28,3 +28,6 @@ Y se calcularon las siguientes metricas para evaluar el performance del modelo.
 
 Accuracy = (40333+2944)/(40333+2944+510+8708)= 0.82439897, Precision_clase_1 = 40333/(40333+8708) = 0.8224342896759853999714524581472645337574, Precision_clase_2 = 2943/(2943+510) = 0.8523023457862728062554300608166811468288
 Recall_clase_1 = 40333/(40333+510) = 0.9875131601498420782018950615772592610728, Recall_clase_2 = 2943/(2943+8708) = 0.2525963436614882842674448545189254141275
+
+Para el modelo de SVM se emplearon los hiperparametros kernel =lineal
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/Ulimax/Analisis-de-sentimientos-mediante-SVM-y-RF/blob/main/Captura%20de%20pantalla%20de%202023-12-13%2017-59-29.png)
