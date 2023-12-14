@@ -26,7 +26,7 @@ Para el modelo de Random Forest se emplearon los hiperparametros n_estimators = 
 
 Y se calcularon las siguientes metricas para evaluar el performance del modelo.
 
-- Accuracy = (40333+2944)/(40333+2944+510+8708)= 0.82439897
+- Accuracy = (40333+2943)/(40333+2944+510+8708)= 0.82439897
 - Precision_clase_1 = 40333/(40333+8708) = 0.8224342896759853999714524581472645337574
 -  Precision_clase_2 = 2943/(2943+510) = 0.8523023457862728062554300608166811468288
 - Recall_clase_1 = 40333/(40333+510) = 0.9875131601498420782018950615772592610728
