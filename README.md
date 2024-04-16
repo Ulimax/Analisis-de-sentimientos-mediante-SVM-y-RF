@@ -1,4 +1,4 @@
-# Análisis de sentimientos con Aprendizaje automatico
+# Análisis de sentimientos empleando Aprendizaje automático ML
 
 En este proyecto se lleva a cabo el análisis de sentimientos de la opinion publica acerca de los Republicanos (Partido politico de los Estados Unidos Americanos)  registrados en la plataforma de Reddit,
 se implementan dos algoritmos, los dos se emplean para clasificar los datos segun si el comentario registrado fue positivo o negativo y se evaluaron con las metricas correspondientes conociendo así su performance.
